@@ -125,15 +125,23 @@ class AmbrosiaConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
     @staticmethod
     @callback
-    def async_get_options_flow(config_entry: config_entries.ConfigEntry) -> AmbrosiaOptionsFlow:
-        return AmbrosiaOptionsFlow(config_entry)
+    def async_get_options_flow(config_entry: config_entries.ConfigEntry) -> PollenTrackerOptionsFlow:
+        return PollenTrackerOptionsFlow(config_entry)
 
 
-class AmbrosiaOptionsFlow(config_entries.OptionsFlow):
-    """Handle Ambrosia options."""
+class PollenTrackerOptionsFlow(config_entries.OptionsFlow):
+    """Handle Pollen Tracker options."""
 
     def __init__(self, config_entry: config_entries.ConfigEntry) -> None:
-        self.config_entry = config_entry
+        self._config_entry = config_entry
+
+    @property
+    def config_entry(self) -> config_entries.ConfigEntry:
+        """Return the config entry."""
+        return self._config_entry
+
+
+AmbrosiaOptionsFlow = PollenTrackerOptionsFlow
 
     async def async_step_init(
         self, user_input: dict[str, Any] | None = None
