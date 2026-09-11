@@ -2,7 +2,8 @@
 
 <img src="images/icon.png" alt="Pollen Tracker Logo" width="150" />
 
-# 🌿 Pollen Tracker for Home Assistant (`pollen-tracker-ha`)
+# 🌿 Pollen Tracker for Home Assistant 
+     (`pollen-tracker-ha`)
 
 **Comprehensive seasonal pollen, allergen, and ragweed forecasting across Europe**
 
@@ -316,7 +317,7 @@ Senzorul de ambrozie expune în atribute link-ul de informare (`civic_map_url`),
 5. **Măslin (`olive_pollen`):** Sezon aprilie – iunie (specific regiunilor mediteraneene).
 6. **Arin (`alder_pollen`):** Sezon ianuarie – aprilie (polenizator timpuriu de iarnă/primăvară).
 
-### ✨ Funcții Avansate (Generate pentru fiecare polen activat)
+### ✨ Funcții Avansate (Generate pentru fiecare tip de polen activat)
 1. **Fereastra Optimă de Aerisire (`ventilation_window`):**
    * Calculează intervalul optim de 2 ore din timpul zilei cu expunere minimă la polen, aplicând penalizări la salturile bruște de dimineață.
    * Include atributul `is_active_now: true/false` pentru declanșarea automatizărilor de aerisire (recuperator de căldură HRV, notificări).
