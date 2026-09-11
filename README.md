@@ -1,8 +1,16 @@
+<div align="center">
+
+<img src="images/icon.png" alt="Pollen Tracker Logo" width="150" />
+
 # 🌿 Pollen Tracker for Home Assistant (`pollen-tracker-ha`)
 
+**Comprehensive seasonal pollen, allergen, and ragweed forecasting across Europe**
+
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/hacs/default)
-[![Validate](https://img.shields.io/github/actions/workflow/status/ygreq/pollen-tracker-ha/validate.yml?branch=main&style=for-the-badge)](https://github.com/ygreq/pollen-tracker-ha/actions)
+[![Validate](https://github.com/ygreq/pollen-tracker-ha/actions/workflows/validate.yml/badge.svg?style=for-the-badge)](https://github.com/ygreq/pollen-tracker-ha/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+</div>
 
 An intelligent Home Assistant integration for **comprehensive seasonal pollen, allergen, and ragweed forecasting** across Europe, powered by the European Union's **Copernicus Atmosphere Monitoring Service (CAMS Europe)** via the free **Open-Meteo Air Quality API**.
 
