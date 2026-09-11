@@ -2,7 +2,7 @@
 
 <img src="images/icon.png" alt="Pollen Tracker Logo" width="150" />
 
-# 🌿 Pollen Tracker for Home Assistant (`pollen-tracker-ha`)
+# 🌿 Pollen Tracker for Home Assistant<br>`(pollen-tracker-ha)`
 
 **Comprehensive seasonal pollen, allergen, and ragweed forecasting across Europe**
 
