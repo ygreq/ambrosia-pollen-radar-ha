@@ -140,9 +140,6 @@ class PollenTrackerOptionsFlow(config_entries.OptionsFlow):
         """Return the config entry."""
         return self._config_entry
 
-
-AmbrosiaOptionsFlow = PollenTrackerOptionsFlow
-
     async def async_step_init(
         self, user_input: dict[str, Any] | None = None
     ) -> FlowResult:
@@ -192,3 +189,6 @@ AmbrosiaOptionsFlow = PollenTrackerOptionsFlow
         )
 
         return self.async_show_form(step_id="init", data_schema=schema)
+
+
+AmbrosiaOptionsFlow = PollenTrackerOptionsFlow
